@@ -4,9 +4,9 @@ angular.module("NoteWrangler")
     return {
       restrict: "E",
       templateUrl: "templates/directives/nw-card.html",
-      scope: {},
-      controller: function($scope){
-        $scope.header = 'Note Title' + num++;
+      scope: {
+        header: '=',
+        icon: '='
       }
     };
 });
