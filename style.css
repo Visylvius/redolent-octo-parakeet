@@ -1,0 +1,6 @@
+.card {
+    position: relative;
+}
+.card p.hidden {
+  display: none;
+}
