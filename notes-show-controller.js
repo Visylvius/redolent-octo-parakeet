@@ -7,3 +7,5 @@ angular.module('NoteWrangler')
       controller.note = data;
     })
   })
+
+$scope.note = note.get({id: $routeParams.id})

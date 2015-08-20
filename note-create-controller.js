@@ -9,3 +9,6 @@ angular.module('NoteWrangler')
       })
     };
   });
+
+//$scope.note = new Note();
+//note.$save(note)
